@@ -36,6 +36,7 @@
 <p>請重新下載<span> </span><a href="https://drive.google.com/open?id=1xDTDfcHU18ipqZNbOufMkSZqibqNeL2T">wcmj2020_tool.7z</a>, 檔案大小為 435 MB, 解開壓縮後為 1.8 GB (其中包括 Mypaint, Dia 與 OBS 等).</p>
 <p>學會利用 ShareX 與 OBS 拍攝螢幕操作影片, 並將個人維護倉儲與網站的過程影片放入個人網站中.</p>
 <h2>Week 9</h2>
+<p>介紹電腦軟硬體及網路架構與設定的簡介</p>
 <h3><strong>電腦軟硬體簡介</strong></h3>
 <p>硬體；可觸摸到的，例如:鍵盤、滑鼠</p>
 <p>主機:包含主機板、記憶體、顯示卡、插孔等等</p>
@@ -48,6 +49,7 @@
 <p>網路設定:由設定&gt;乙太網路或WIFI&gt;網路和共用中心&gt;內容&gt;調整IPv4之IP及DNS</p>
 <p>設定Proxy(視情況所需)</p>
 <h2>Week 10</h2>
+<p>利用PuTTY笧出密碼，以SSH維護倉儲</p>
 <h3>以SSH維護倉儲</h3>
 <p>1.下載PuTTY:<a href="https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html">https://www.chiark.greenend.org.uk/~sgtatham/putty/latest.html</a></p>
 <p><span>2. 利用 y:\portablegit\bin\sh.exe 進入 shell 命令環境後, 以 </span></p>
@@ -207,6 +209,20 @@
 </div>
 <p>之後就可以透過近端的 .ppk private key 與 Github.com 上的 public key 對應, 無需輸入帳號密碼就可以進行 git push</p>
 <h2>Week 11</h2>
+<p>說明如還利用[Leo Editor]管理[CMSiMDE]網際網路內容管理系統中[Pelican]網誌。其中有共用、近端與遠端等三個設定檔案的修改，以及兩個用程式按鈕轉檔的使用。</p>
+<p></p>
+<h3>Leo Editor 基本用法</h3>
+<p>首先在隨身程式系統的命令列中，以leo啟動[Leo Editor]，然後開啟[wcmj2020]倉儲config目錄中的pelican.leo檔案。</p>
+<p>由於 Leo Editor 是一個大綱管理系統, 淡黃色區域是大綱節點區, 淡紅色區是與各大綱對應的內文區, 而淡藍色則是 Log 輸出區</p>
+<p>新增節點的指令: ctrl + i, 表示要 insert 一個新的節點</p>
+<p>向右移動節點的方法: ctrl + r, 表示要將節點往 right (右) 移動</p>
+<p>向左移動節點的方法: ctrl + l, 表示要將節點往 left (左) 移動</p>
+<p>向上移動節點的方法: ctrl + u, 表示要將節點往 up (上) 移動</p>
+<p>向下移動節點的方法: ctrl + d, 表示要將節點往 down (下) 移動</p>
+<h3>三個檔案設定的修改</h3>
+<p>在共用檔案中，修改AUTHOR = '使用者名稱或學號'以及SITENAME = '自己想使用的名稱'</p>
+<p>在遠端檔案中，修改SITEURL = 'https://學號.github.io/wcmj2020/blog'</p>
+<p>近端檔案目前不用修改</p>
 <h1>資料來源</h1>
 <p><span>Web si (網站te): </span><a href="https://mde.tw/wcmj2020">https://mde.tw/wcmj2020</a><span> </span></p>
 <p>指導老師:嚴家銘</p>
